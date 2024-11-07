@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0070BC;
+  border-radius: 10px; 
+  border: 3px solid #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.ReactModal__Content{
+
+  width: 50%;
+  margin: auto auto;
+  height: 70vh;
+  overflow: hidden;
+}
+
+
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+ */
+
+/* {
+      "id": 91,
+      "clientName": "Client Name 91",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 91...",
+      "priority": "Medium",
+      "comments": 6,
+      "files": 9,
+      "tasks": 13,
+      "dueDate": "2023-02-03",
+      "status": "Completed"
+    },
+    {
+      "id": 92,
+      "clientName": "Client Name 92",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 92...",
+      "priority": "Low",
+      "comments": 5,
+      "files": 8,
+      "tasks": 11,
+      "dueDate": "2023-02-04",
+      "status": "Completed"
+    },
+    {
+      "id": 93,
+      "clientName": "Client Name 93",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 93...",
+      "priority": "High",
+      "comments": 10,
+      "files": 13,
+      "tasks": 19,
+      "dueDate": "2023-02-05",
+      "status": "Completed"
+    },
+    {
+      "id": 94,
+      "clientName": "Client Name 94",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 94...",
+      "priority": "Medium",
+      "comments": 7,
+      "files": 9,
+      "tasks": 14,
+      "dueDate": "2023-02-06",
+      "status": "Completed"
+    },
+    {
+      "id": 95,
+      "clientName": "Client Name 95",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 95...",
+      "priority": "Low",
+      "comments": 6,
+      "files": 8,
+      "tasks": 12,
+      "dueDate": "2023-02-07",
+      "status": "Completed"
+    },
+    {
+      "id": 96,
+      "clientName": "Client Name 96",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 96...",
+      "priority": "High",
+      "comments": 11,
+      "files": 14,
+      "tasks": 20,
+      "dueDate": "2023-02-08",
+      "status": "Completed"
+    },
+    {
+      "id": 97,
+      "clientName": "Client Name 97",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 97...",
+      "priority": "Medium",
+      "comments": 8,
+      "files": 11,
+      "tasks": 15,
+      "dueDate": "2023-02-09",
+      "status": "Completed"
+    },
+    {
+      "id": 98,
+      "clientName": "Client Name 98",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 98...",
+      "priority": "Low",
+      "comments": 5,
+      "files": 7,
+      "tasks": 10,
+      "dueDate": "2023-02-10",
+      "status": "Completed"
+    },
+    {
+      "id": 99,
+      "clientName": "Client Name 99",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 99...",
+      "priority": "High",
+      "comments": 10,
+      "files": 13,
+      "tasks": 18,
+      "dueDate": "2023-02-11",
+      "status": "Completed"
+    },
+    {
+      "id": 100,
+      "clientName": "Client Name 100",
+      "assignedTo": "Sadik Istiak",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ad! 100...",
+      "priority": "Medium",
+      "comments": 8,
+      "files": 10,
+      "tasks": 15,
+      "dueDate": "2023-02-12",
+      "status": "Completed"
+    },
+     */
